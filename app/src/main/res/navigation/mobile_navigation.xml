@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tareaa5_navigationview.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/item_info"
+        android:name="com.example.tareaa5_navigationview.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/item_users"
+        android:name="com.example.tareaa5_navigationview.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/item_product"
+        android:name="com.example.tareaa5_navigationview.administrarp"
+        android:label="fragment_administrarp2"
+        tools:layout="@layout/fragment_administrarp2" />
+    <fragment
+        android:id="@+id/item_ajustes"
+        android:name="com.example.tareaa5_navigationview.ajustes"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/item_acerca"
+        android:name="com.example.tareaa5_navigationview.acercade"
+        android:label="fragment_acercade"
+        tools:layout="@layout/fragment_acercade" />
+    <fragment
+        android:id="@+id/item_cs"
+        android:name="com.example.tareaa5_navigationview.cerrarsesion"
+        android:label="fragment_cerrarsesion"
+        tools:layout="@layout/fragment_cerrarsesion" />
+</navigation>
