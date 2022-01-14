@@ -2,7 +2,7 @@
 
 El JSON realizado se puede visualizar en el siguiente link https://my-json-server.typicode.com/mmendezg2/usuariosJSON/db
 
-# JSON con los datos de usuario
+# JSON con los datos de todos los usuarios
 ![Evidencia0](https://user-images.githubusercontent.com/95297941/149443029-84038736-6bf6-4e31-803c-f8707a826517.png)
 
 # Administrador
